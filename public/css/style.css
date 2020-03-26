@@ -1,0 +1,30 @@
+.container-fluid {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.table-hover {
+    display: none;
+    margin-top: 20px;
+}
+
+.table-hover tr {
+    cursor: pointer;
+}
+
+.table-hover thead {
+    background: #007bff;
+    color: #fff;
+}
+
+.table-inner, .table-inner tr td {
+    border: none;
+}
+
+tr.accordion.even {
+    background: #e5e8e5;
+}
+
+tr.accordion.odd {
+    background: #c2c2c3;
+}
